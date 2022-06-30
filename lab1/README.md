@@ -8,9 +8,9 @@ products:
 - windows-wdk
 ---
 
-# KMDF_DOSAS_Baryshnikov_SS_191_351 File System Minifilter Driver
+# KMDF_DOSAS_Fagradyan_SS_191_351 File System Minifilter Driver
 
-The KMDF_DOSAS_Baryshnikov_SS_191_351 minifilter demonstrates how to specify callback functions for different types of I/O requests.
+The KMDF_DOSAS_Fagradyan_SS_191_351 minifilter demonstrates how to specify callback functions for different types of I/O requests.
 
 ## Universal Windows Driver Compliant
 
@@ -18,6 +18,6 @@ This sample builds a Universal Windows Driver. It uses only APIs and DDIs that a
 
 ## Design and Operation
 
-The *KMDF_DOSAS_Baryshnikov_SS_191_351* minifilter does not have any real functionality. For each type of I/O operation, the same pre and post callback functions are called. These callback functions simply forward the I/O request to the next filter on the stack.
+The *KMDF_DOSAS_Fagradyan_SS_191_351* minifilter does not have any real functionality. For each type of I/O operation, the same pre and post callback functions are called. These callback functions simply forward the I/O request to the next filter on the stack.
 
 For more information on file system minifilter design, start with the [File System Minifilter Drivers](https://docs.microsoft.com/windows-hardware/drivers/ifs/file-system-minifilter-drivers) section in the Installable File Systems Design Guide.
